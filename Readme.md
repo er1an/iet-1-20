@@ -2,4 +2,4 @@
 
 # deployed link
 
-# https://er1an.github.io/iet-1-20/
+## until I made the responsive site
