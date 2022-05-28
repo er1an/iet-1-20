@@ -3,11 +3,11 @@
 }
 body {
   margin: 20px;
-  background: wheat;
+  background: rgb(255, 255, 255);
 }
 .container {
   margin: 0 auto;
-  background-color: rgb(0, 0, 0);
+  background-color: black;
   max-width: 1140px;
 }
 .header-nav {
@@ -27,11 +27,21 @@ li a {
   display: inline-block;
   text-transform: uppercase;
   text-decoration: none;
-  color: rgb(243, 234, 234);
+  color: rgb(0, 0, 0);
   font-family: "Roboto Condensed", sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: 700;
 }
+nav a {
+  text-decoration: none;
+  color: white;
+}
+nav a h1 {
+  font-size: 30px;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 4px;
+}
+
 .header-menu-link::after {
   content: "";
   display: block;
